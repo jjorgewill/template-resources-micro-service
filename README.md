@@ -1,7 +1,7 @@
 # template-resources-micro-service
 Midleware integrado para acceso a recursos protegidos.
 Esta plantilla ofrece una arquitectura para crear aplicaciones con django y no empezar a realizar todas las configuraciones desde cero.
-en esta plantilla usted puede modificar crear sus propias apps y modelos libremente.
+En esta plantilla usted puede modificar crear sus propias apps y modelos libremente.
 
 
 
