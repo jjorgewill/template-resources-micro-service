@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    'SCHEMA': 'arancel.schema.schema'
+    'SCHEMA': 'resources.schema.schema'
 }
 
 CACHES = {
@@ -65,7 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'arancel.middleware.userAuthMidleware.UserAuthMidleware'
+    'resources.middleware.userAuthMidleware.UserAuthMidleware'
 ]
 
 ROOT_URLCONF = 'resources.urls'
