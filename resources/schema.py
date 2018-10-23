@@ -1,5 +1,5 @@
 import graphene
-import apps.aranceles.schema
+import apps.core.schema
 
 
 class Query(apps.core.schema.Query, graphene.ObjectType):

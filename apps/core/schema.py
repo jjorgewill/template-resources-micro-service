@@ -4,7 +4,6 @@ import graphene
 from graphene_django.types import DjangoObjectType
 
 
-
 class CompanyType(DjangoObjectType):
     class Meta:
         model = models.Company

@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Profile(models.Models):
+class Profile(models.Model):
     address = models.TextField(blank=True)
     token = models.CharField(blank=True,null=True,max_length=256)
     user_id = models.IntegerField(blank=False, null=False)
