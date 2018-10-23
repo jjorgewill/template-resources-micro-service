@@ -9,6 +9,8 @@ en esta plantilla usted puede modificar crear sus propias apps y modelos libreme
 
 1 Tener un servidor con redis instalado, porque lo vamos a utilizar para mantener informacion en memoria y evitar sobre cargar al servicio de autenticacion y ofrecer un buen rendimiento.
 
+2 Python 3.5
+
 
 # Pasos
 1. Crear el entorno virtual 
